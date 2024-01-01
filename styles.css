@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+#buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn, .stop {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.stop {
+  background-color: #d9534f;
+  color: #fff;
+}
